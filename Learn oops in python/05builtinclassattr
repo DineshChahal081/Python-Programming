@@ -1,0 +1,13 @@
+class Employee:
+    def __init__(self, sal, ag):
+        self.salary=sal
+        self.age=ag
+        
+e1=Employee(20000,21)
+e2=Employee(25000,23)
+
+print(Employee.__doc__)
+print(Employee.__dict__)
+print(Employee.__name__)
+print(Employee.__module__)
+
